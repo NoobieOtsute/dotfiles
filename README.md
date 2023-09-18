@@ -1,6 +1,13 @@
 # dotfiles
 
-Programs to install:
+### Contain config files for
+- alacrrtty
+- helix
+- i3 
+- polybar
+- rofi
+
+Programs to install for .bashrc to work:
 - hx - helix text editor
 - fd - alternatives to find command
 - fzf - fuzzy file finder
