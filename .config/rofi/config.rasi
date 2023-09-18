@@ -1,0 +1,15 @@
+configuration {
+	display-drun: "Applications";
+	drun-display-format: "{icon} {name}";
+	font: "JetBrainsMonoNerdFont Regular 12";
+	modi: "window,drun,run";
+	shows-icons: true;
+	timeout {
+		action: "kb-cancel";
+		delay:  0;
+	}
+	filebrowser {
+		directories-first: true;
+		sorting-method:   "name";
+	}
+}

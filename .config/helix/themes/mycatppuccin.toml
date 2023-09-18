@@ -1,0 +1,5 @@
+inherits = "catppuccin_macchiato"
+
+"variable.parameter" = "maroon"
+"keyword.control.conditional" = "mauve"
+"namespace" = "blue"
