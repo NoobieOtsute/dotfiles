@@ -1,5 +1,6 @@
 # dotfiles
 
+<<<<<<< HEAD
 ### Contain config files for
 - alacrrtty
 - helix
