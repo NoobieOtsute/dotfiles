@@ -54,6 +54,12 @@ bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
 # kill focused window
 bindsym $mod+q kill
 
+# power menu
+bindsym $mod+p exec ~/.config/rofi/powermenu/run.sh
+
+# Windows switcher
+bindsym $mod+Tab exec ~/.config/rofi/switcher/run.sh
+
 # start dmenu (a program launcher)
 # bindsym $mod+d exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
@@ -62,9 +68,9 @@ bindsym $mod+q kill
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
-# start rofi instead of dmenu
-bindsym $mod+d exec --no-startup-id "rofi -show drun"
-bindsym $mod+Shift+d exec --no-startup-id "rofi -show run"
+# rofi launcher
+bindsym $mod+d exec ~/.config/rofi/launcher/run.sh
+bindsym $mod+Shift+d exec "rofi -show run"
 
 # change focus
 bindsym $mod+j focus left
@@ -100,8 +106,8 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
+#bindsym $mod+s layout stacking
+#bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
@@ -195,7 +201,6 @@ bindsym $mod+r mode "resize"
 
 # Default gaps
 gaps inner 10px
-gaps outer 5px
 
 # Remove windows border
 default_border pixel 2
@@ -212,3 +217,12 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Power manager
 exec_always --no-startup-id xfce4-power-manager
+
+# Autotiling
+exec_always --no-startup-id /home/arch/.local/bin/autotiling
+
+# dunst
+exec_always --no-startup-id dunst
+
+# change color
+client.focused #8BD5CA #8BD5CA #88C0D0 #8BD5CA 
