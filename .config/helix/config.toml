@@ -1,13 +1,13 @@
 theme = "mycatppuccin"
 
 [editor]
+mouse = false
 bufferline = "multiple"
 true-color = true
-rulers = [80]
 cursorline = true
 color-modes = true
 scrolloff = 12
-idle-timeout = 100
+idle-timeout = 75
 
 [editor.cursor-shape]
 insert = "bar"
@@ -15,7 +15,7 @@ normal = "block"
 select = "underline"
 
 [editor.statusline]
-left = ["mode"]
+left = ["mode", "spinner"]
 center = ["file-modification-indicator", "file-name"]
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
@@ -30,6 +30,8 @@ r = ":config-reload"
 w = ":write"
 q = ":quit"
 
-[editor.file-picker]
-hidden = false
+[editor.soft-wrap]
+enable = true
 
+[editor.lsp]
+display-inlay-hints = true
