@@ -22,3 +22,9 @@ style = "Bold Italic"
 
 [font]
 size = 14.0
+
+[keyboard]
+bindings = [
+  {key = "Return", mods = "Alt|Shift", action = "SpawnNewInstance"},
+]
+

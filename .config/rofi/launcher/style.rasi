@@ -3,7 +3,7 @@ configuration {
 	modi:                       "drun";
     show-icons:                 true;
     display-drun:               "󱓞  Apps";
-    font:                       "JetBrainsMono Nerd Font 10";
+    font:                       "JetBrainsMono Nerd Font 14";
     icon-theme:                 "Papirus-Dark";
     monitor: -1;
 }
@@ -82,7 +82,7 @@ entry {
 // Area where all of the results are displayed.
 listview {
     enabled:                     true;
-    columns:                     2;
+    columns:                     1;
     lines:                       8;
     cycle:                       true;
     dynamic:                     true;
