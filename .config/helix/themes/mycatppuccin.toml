@@ -1,5 +1,0 @@
-inherits = "catppuccin_mocha"
-
-"variable.parameter" = "maroon"
-"keyword.control.conditional" = "mauve"
-"namespace" = "blue"
