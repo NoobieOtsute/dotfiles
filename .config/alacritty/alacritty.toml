@@ -1,0 +1,30 @@
+import = ["~/.config/alacritty/catppuccin-macchiato.toml"]
+
+[window.padding]
+x = 10
+y = 10
+
+[font.normal]
+family = "JetBrainsMonoNerdFont"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMonoNerdFont"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMonoNerdFont"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMonoNerdFont"
+style = "Bold Italic"
+
+[font]
+size = 14.0
+
+[keyboard]
+bindings = [
+  {key = "Return", mods = "Alt|Shift", action = "SpawnNewInstance"},
+]
+

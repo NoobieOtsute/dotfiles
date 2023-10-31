@@ -1,0 +1,19 @@
+// Catppuccin palete
+
+* {
+    black:      #191D24;
+    white:      #CDD6f4;
+    blue2:      #89B4FA;
+    red:        #BF616A;
+    yellow:     #F9E2AF;
+    green:      #A6E3A1;
+    peach:      #FAB387;
+
+    background:     @black;
+    background-alt: @black;
+    foreground:     @white;
+    selected:       @peach;
+    active:         @blue2;
+    urgent:         @red;
+    border:         @green;
+}

@@ -1,0 +1,18 @@
+format = '''
+$username@$hostname-\[$directory\]
+$character
+'''
+
+[username]
+format = '[$user]($style)'
+show_always = true
+style_user = 'bold blue'
+
+[hostname]
+ssh_only = false
+style = 'bold blue'
+format = '[$hostname]($style)'
+
+[directory]
+format = '[$path]($style)'
+truncation_symbol = '.../'
