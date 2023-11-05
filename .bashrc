@@ -13,6 +13,7 @@ PS1='[\u@\h \W]\$ '
 alias la='ls -lAh'
 alias hx='helix'
 alias ip='ip -c=auto'
+alias diff='diff --color=auto'
 
 # Starship prompt
 eval "$(starship init bash)"
