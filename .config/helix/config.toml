@@ -32,6 +32,3 @@ q = ":quit"
 
 [editor.soft-wrap]
 enable = true
-
-[editor.lsp]
-display-inlay-hints = true
